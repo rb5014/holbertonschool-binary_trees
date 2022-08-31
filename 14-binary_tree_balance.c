@@ -3,7 +3,7 @@
 /**
  * binary_tree_balance - dsdsd
  * @tree: sdsdsd
- * return: un truc pértinent
+ * Return: un truc pértinent
  */
 int binary_tree_balance(const binary_tree_t *tree)
 {
@@ -13,7 +13,8 @@ return (0);
 }
 
 /**
-* @tree: A pointer to the root node of the tree to measure the height.
+* binary_tree_height - sdsds
+* @tree: A pointer to the root node of the tree to measure the height
 * Return: return: un truc pértinent
 */
 size_t binary_tree_height(const binary_tree_t *tree)
