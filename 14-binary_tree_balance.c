@@ -23,5 +23,6 @@ int binary_tree_balance(const binary_tree_t *tree)
 		m += binary_tree_balance(tree->right);
 		m++;
 	}
+	printf("n = %d    m = %d\n", n, m);
 	return (n - m);
 }
