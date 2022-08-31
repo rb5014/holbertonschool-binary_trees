@@ -8,21 +8,20 @@
  */
 int binary_tree_balance(const binary_tree_t *tree)
 {
-	int n = 0, m = 0;
+int n = 0, m = 0;
 
-	if (!(tree))
-		return (0);
+if (!(tree))
+return (0);
 
-	if (tree->left)
-	{
-		n += binary_tree_balance(tree->left);
-		n++;
-	}
-	if (tree->right)
-	{
-		m += binary_tree_balance(tree->right);
-		m++;
-	}
-	printf("n = %d    m = %d\n", n, m);
-	return (n - m);
+if (tree->left)
+{
+n += binary_tree_balance(tree->left);
+n++;
+}
+if (tree->right)
+{
+m += binary_tree_balance(tree->right);
+m++;
+}
+return (n - m);
 }
