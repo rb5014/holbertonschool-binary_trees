@@ -11,7 +11,6 @@ size_t binary_tree_leaves(const binary_tree_t *tree)
 
 	if (!(tree))
 		return (0);
-	printf("tree->n = %d\n", tree->n);
 	n += binary_tree_leaves(tree->left);
 	n += binary_tree_leaves(tree->right);
 
