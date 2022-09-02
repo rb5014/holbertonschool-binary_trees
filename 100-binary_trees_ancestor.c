@@ -15,8 +15,6 @@ const binary_tree_t *tmp = first, *tmp2;
 	while (tmp)
 	{
 		tmp2 = second;
-		if (tmp == tmp2)
-			return ((binary_tree_t *) tmp);
 		while (tmp2)
 		{
 			if (tmp2 == tmp)
